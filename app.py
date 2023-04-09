@@ -19,6 +19,8 @@ db.init_app(app)
 migrate = Migrate(app, db)
 
 
+
+
 # 注册蓝图
 app.register_blueprint(qa_blueprint)
 app.register_blueprint(auth_blueprint)
